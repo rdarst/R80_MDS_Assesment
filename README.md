@@ -1,6 +1,5 @@
 # R80.X MDS Assesment
-
-For R80.10 this script uses functions that were included in JHF70 or later.  See SK121292 for more details.
+**For R80.10 this script uses functions that were included in JHF70 or later.  See SK121292 for more details.**
 
 Script to gather stats on an R80 MDS Server including the following
   - Total memory used per CMA
@@ -14,9 +13,14 @@ Status output will be printed on the screen as the script is running and a CSV r
 
 Here is an example of the output.
 
-CMA_NAME,Total_Memory,Total_Objects,Custom_Objects,NumPolices,TotalRulesPerCMA,NumNATRulesPerCMA
-CMA1,1,10755,1025,1,4,2
-CMA2,3,9732,2,1,2,2
-CMA3,3,9732,2,1,2,2
-CMA4,3,8910,1,1,1,2
-CMA5,3,8910,1,1,1,2
+  CMA_NAME,Total_Memory_M,Total_Objects,Custom_Objects,NumPolices,TotalRulesPerCMA,NumNATRulesPerCMA
+  
+  CMA1,1009.81,10755,1025,1,4,2
+  
+  CMA2,320.109,9732,2,1,2,2
+  
+  CMA3,322.852,9732,2,1,2,2
+  
+  CMA4,321.352,8910,1,1,1,2
+  
+  CMA5,357.82,8910,1,1,1,2
